@@ -2,3 +2,6 @@
 .gitpod/ 
 .pyenv_mirror/
 .vscode-remote/
+
+# Python pytests
+.pytest_cache/
