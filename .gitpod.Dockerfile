@@ -38,10 +38,6 @@ RUN rm -rf /home/gitpod/cicd-exercises/solutions \
     && rm /home/gitpod/cicd-exercises/.gitpod.Dockerfile \
     && rm /home/gitpod/cicd-exercises/.gitpod.yml
 
-# Hide solutions and setup of the Gitpod workspace
-RUN rm -rf /home/workspace/solutions \
-    && rm /home/workspace/.gitpod.Dockerfile \
-    && rm /home/workspace/.gitpod.yml
 
 
 
