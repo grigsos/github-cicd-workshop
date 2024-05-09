@@ -36,7 +36,7 @@ RUN type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)
 RUN rm -rf /home/gitpod/cicd-exercises/solutions 
 
 
-
+USER gitpod
 
 
 CMD ["bash"]
