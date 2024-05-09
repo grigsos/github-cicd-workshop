@@ -10,3 +10,4 @@ tasks:
       git init
       git add .
       git commit -m "Initial commit"
+      exit 0
