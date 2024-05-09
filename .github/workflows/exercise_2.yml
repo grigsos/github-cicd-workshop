@@ -26,5 +26,5 @@ jobs:
     - name: Install Black
       run: pip install black
     - name: Check code format
-      run: black --check .
+      run: flake8
       working-directory: content/exercise_2
