@@ -32,6 +32,8 @@ RUN type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)
     sudo apt update && \
     sudo apt install gh -y
 
+# Hide solutions
+RUN rm -rf /home/gitpod/cicd-exercises/solutions 
 
 
 USER gitpod
