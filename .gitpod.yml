@@ -6,6 +6,7 @@ tasks:
     before: |
       rm -rfv *
       rm -rf .git
+      rm .gitpod*
       sudo mv /home/gitpod/cicd-exercises/* .
       git init
       git add .
