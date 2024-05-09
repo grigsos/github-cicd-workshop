@@ -4,7 +4,6 @@ checkoutLocation: '.'
 tasks:
   - name: Clean root and grab useful exercises.
     before: |
-      rm -rfv *
       rm -rf .git
       rm .gitpod*
       sudo mv /home/gitpod/cicd-exercises/* .
