@@ -35,4 +35,4 @@
 
 GitPod picture:
 
-![GitPod Provider authentication](gitpod_setup.png)
+![GitPod Provider authentication](gitpod_github_setup.png)
