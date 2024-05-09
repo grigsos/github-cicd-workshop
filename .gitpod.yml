@@ -4,7 +4,7 @@ checkoutLocation: '.'
 tasks:
   - name: Clean root and grab useful exercises.
     before: |
-      rm -rf content/*
+      rm -rf content
       rm -rf .git
       rm .gitpod*
       rm .docker*
