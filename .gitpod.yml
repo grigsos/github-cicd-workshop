@@ -12,3 +12,11 @@ tasks:
       git add .
       git commit -m "Initial commit"
       exit 0
+
+vscode:
+  settings:
+    "files.exclude": {
+      "**/.gitpod": true,
+      "**/.pyenv_mirror": true,
+      "**/.vscode-remote": true
+    }
