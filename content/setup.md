@@ -1,4 +1,4 @@
-The instructions are going to be the same as in the `../../exercise_1/exercise.md `
+# Setup Instructions
 
 1. Go to [GitPod Integrations page](https://gitpod.io/user/integrations): 
 
@@ -20,14 +20,14 @@ The instructions are going to be the same as in the `../../exercise_1/exercise.m
     ```bash
     gh repo create github-cicd-workshop --public
     ```
-    - You can replace `github-cicd-workshop` with any name you want for your repository.
+    - You can replace `github-cicd-workshop` with any name you want for your repository. This will be defined as <SELECTED-REPO-NAME> in the next step.
     - You can also change `--public` to `--private` if you want to make it private.
 
-4. The repo that was created is currently empty. We will push this git to be the main branch with the following commands:
+4. The repo that was created is currently empty. We will push this git to be the master branch with the following commands:
     ```bash
     git remote remove origin
-    git remote add origin https://github.com/grigsos/github-cicd-workshop.git
-    git push --set-upstream origin main
+    git remote add origin https://github.com/<YOUR-GITHUB-USERNAME-HERE>/<SELECTED-REPO-NAME>.git
+    git push --set-upstream origin master
     ```
 
 
