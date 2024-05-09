@@ -8,6 +8,7 @@ tasks:
       rm -rf .git
       rm .gitpod*
       rm .docker*
+      rm -rf .github   #remove laters, for CICD testing
       sudo mv /home/gitpod/cicd-exercises/* .
       git init
       git add .
