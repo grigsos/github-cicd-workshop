@@ -35,7 +35,6 @@ RUN type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)
 # Hide solutions
 RUN rm -rf /home/gitpod/cicd-exercises/solutions 
 
-
 USER gitpod
 
 
