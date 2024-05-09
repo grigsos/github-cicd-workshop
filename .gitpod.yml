@@ -1,15 +1,15 @@
 image:
   file: .gitpod.Dockerfile
 checkoutLocation: '.'
-# tasks:
-#   - name: Clean root and grab useful exercises.
-#     before: |
-#       rm -rfv *
-#       rm -rf .git
-#       rm .gitpod*
-#       rm .docker*
-#       sudo mv /home/gitpod/cicd-exercises/* .
-#       git init
-#       git add .
-#       git commit -m "Initial commit"
-#       exit 0
+tasks:
+  - name: Clean root and grab useful exercises.
+    before: |
+      rm -rf content/*
+      rm -rf .git
+      rm .gitpod*
+      rm .docker*
+      sudo mv /home/gitpod/cicd-exercises/* .
+      git init
+      git add .
+      git commit -m "Initial commit"
+      exit 0
