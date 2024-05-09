@@ -3,7 +3,7 @@ name: Hello World Workflow
 on: push
 
 jobs:
-  say_hello:
+  say_hello-ex1:
     runs-on: ubuntu-latest
     steps:
     - name: Print Hello World
