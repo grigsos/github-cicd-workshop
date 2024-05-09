@@ -1,6 +1,6 @@
 FROM gitpod/workspace-python-3.12
 
-ENV TRIGGER_REBUILD 0
+ENV TRIGGER_REBUILD 1
 
 USER root
 
@@ -36,7 +36,6 @@ RUN type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)
 RUN rm -rf /home/gitpod/cicd-exercises/solutions 
 
 USER gitpod
-
 
 CMD ["bash"]
 
