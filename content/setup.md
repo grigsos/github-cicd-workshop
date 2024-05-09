@@ -23,9 +23,8 @@
     - You can replace `github-cicd-workshop` with any name you want for your repository. This will be defined as <SELECTED-REPO-NAME> in the next step.
     - You can also change `--public` to `--private` if you want to make it private.
 
-4. The repo that was created is currently empty. We will push this git to be the master branch with the following commands:
+4. The repo that was created is currently empty. We will push this git repo to be the master branch with the following commands:
     ```bash
-    git remote remove origin
     git remote add origin https://github.com/<YOUR-GITHUB-USERNAME-HERE>/<SELECTED-REPO-NAME>.git
     git push --set-upstream origin master
     ```

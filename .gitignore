@@ -5,3 +5,6 @@
 
 # Python pytests
 .pytest_cache/
+
+# Docker
+.docker-root
