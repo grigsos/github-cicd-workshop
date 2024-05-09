@@ -32,6 +32,11 @@ RUN type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)
     sudo apt update && \
     sudo apt install gh -y
 
+# Hide solutions and setup of the Gitpod workspace
+RUN rm -rf /home/gitpod/cicd-exercises/solutions \
+    rm /home/gitpod/cicd-exercises/.gitpod.Dockerfile \
+    rm /home/gitpod/cicd-exercises/.gitpod.yml
+
 
 CMD ["bash"]
 
