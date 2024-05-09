@@ -12,7 +12,7 @@ Welcome to the GitHub Actions Course! This repository serves as a guide to help 
 
 To begin learning GitHub Actions, you'll create your own GitHub repository and configure it to run GitHub Actions. Follow these steps to set up your environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/grigsos/github-test)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/grigsos/github-cicd-workshop)
 
 
 
