@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+#   schedule:
+#     - cron: '*/10 * * * *' # Every 5 minutes
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run Greet Action
+      uses: ./.github/actions/greet_people
+      with:
+        names: 'Engineers'
