@@ -1,12 +1,7 @@
-# Deploys multiple stages in one AWS account
-name: Build and Deploy-ex4
+name: Protected envs and stages-ex4
 
 on: push
 
-# permissions:
-#   id-token: write # This is required for aws oidc connection
-#   contents: read # This is required for actions/checkout
-#   pull-requests: write # This is required for gh bot to comment PR
 
 jobs:
   build-and-push:
