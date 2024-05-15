@@ -8,3 +8,5 @@
 
 # Docker
 .docker-root
+
+__pycache__/
