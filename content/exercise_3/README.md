@@ -1,32 +1,38 @@
 # CI/CD with GitHub Actions and Docker
 
-## Overview
 This exercise aims to demonstrate how to set up a CI/CD pipeline using GitHub Actions. We will build a Docker image, use secrets for sensitive information, and trigger the workflow on merging into the master branch.
+
+
+## Files to Work With
+
+1. **Dockerfile**: The dockerfile that is responsible for building a simple API server
+2. **app.py**: The API server backend
+2. **requirements.txt**: Required dependencies to build the API server
+
+## Task
+
+You are required to set up a basic workflow in your GitHub repository that triggers on every merge into `master` that builds a Docker image and pushes it to Docker Hub
 
 ## Instructions
 
 ### 1. Set Up GitHub Secrets
 You need to set up the following secrets in your GitHub repository:
 - `DOCKER_USERNAME`: Your Docker Hub username.
-- `DOCKER_PASSWORD`: Your Docker Hub password.
+- `DOCKER_TOKEN`: Your Docker Hub password.
+
+Generate the above by creating an account in Docker then finding instructions on how to generate a token [here](https://docs.docker.com/security/for-developers/access-tokens) 
 
 ### 2. Complete the Workflow File
-The `ci-cd.yml` file in the `.github/workflows` directory is partially filled out. You need to complete it to:
+The `workflow.yaml` file in the current directory is partially filled out. You need to complete it and move it to `.github/workflows` to and have it:
 - Log in to Docker Hub using the secrets.
 - Build and push the Docker image to Docker Hub.
 
-### 3. Complete the Dockerfile
-The `Dockerfile` in the repository is mostly complete. You need to ensure it has the necessary commands to:
-- Set up the working directory.
-- Copy the necessary files.
-- Install dependencies.
-- Expose the correct port.
-- Define the command to run your application.
-
-### 4. Validate the Workflow
+### 3. Validate the Workflow
 After completing the workflow file and Dockerfile:
 - Commit your changes.
-- Create a pull request and merge it into the master branch.
+- Create a pull request.
+- (Optional) Allow your workflow to run on every push to PR temporarily.
+- Merge PR into the master branch.
 
 The GitHub Actions workflow should run automatically, build the Docker image, and push it to Docker Hub.
 

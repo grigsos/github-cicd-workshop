@@ -5,17 +5,17 @@ Create a GitHub Actions workflow that is triggered on pull requests to the maste
 ## Files to Work With
 
 1. **bad_code.py**: A Python script with style issues.
-2. **test_code.py**: Contains unit tests for `bad_code.py`.
+2. **test_bad_code.py**: Contains unit tests for `bad_code.py`.
 
 ## Task
 
-1. Complete the provided `lint_and_test.yml` to run unit tests and lint checks on pull requests to master.
+Complete the provided `lint_and_test.yaml` to run unit tests and lint checks on pull requests to master.
 
 ## Instructions
 
 ### Step 1: Complete the Workflow
 
-Refer to the partial `lint_and_test.yml` and add necessary steps to execute the Python unit tests and linting.
+Refer to the partial `lint_and_test.yaml` and add necessary steps to execute the Python unit tests and linting.
 
 ### Step 2: Commit and Push
 
