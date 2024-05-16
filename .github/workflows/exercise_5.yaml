@@ -1,11 +1,11 @@
-name: CI
+name: Cron and Action Workflow-ex6
 
 on:
   # push:
   #   branches:
   #     - main
   schedule:
-    - cron: '*/10 * * * *' # Every 5 minutes
+    - cron: '*/15 * * * *' # Every 5 minutes
 
 jobs:
   greet:
