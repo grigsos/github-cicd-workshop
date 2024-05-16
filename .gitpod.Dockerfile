@@ -12,7 +12,9 @@ RUN sudo apt-get update && \
 RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && \
     sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" && \
     sudo apt-get update && \
-    sudo apt-get install -y docker-ce
+    DEBIAN_FRONTEND=noninteractive sudo apt-get install -y docker-ce && \
+    sudo rm /etc/apt/sources.list.d/archive_uri-https_download_docker_com_linux_ubuntu-jammy.list
+
 
 COPY --chown=gitpod content /home/gitpod/cicd-exercises
 
