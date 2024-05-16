@@ -52,3 +52,13 @@ The top command output will display the following information:
 - **Process List**: Lists the processes consuming the most resources, showing their CPU and memory usage.
 
 By observing the output, you can understand how much the system is being taxed by the stress test.
+
+## Explanation of stress test
+
+Explanation:
+- `cpu 4`: Uses all 4 CPU cores available. (Or adjust depending on the number of cores available)
+- `io 4`: Allocates 4 I/O workers, utilizing the maximum potential of your CPU cores for I/O operations.
+- `vm 2`: Starts 2 virtual memory stressors.
+- `vm-bytes 2G`: Each virtual memory stressor will use 2 GB of memory. With 2 stressors, this will use the maximum 4 GB of memory allowed for virtual memory operations.
+- `timeout 300s`: Runs the stress test for 300 seconds (5 minutes).
+- `metrics-brief`: Provides a brief summary of the metrics at the end.

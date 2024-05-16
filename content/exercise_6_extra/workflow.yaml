@@ -18,6 +18,7 @@ jobs:
     - name: Run stress-ng
       run: |
         echo "Starting stress test"
-        stress-ng --cpu 8 --io 4 --vm 2 --vm-bytes 128M --timeout 300s --metrics-brief
+        stress-ng --cpu 4 --io 4 --vm 2 --vm-bytes 2G --timeout 300s --metrics-brief
+
 
 
