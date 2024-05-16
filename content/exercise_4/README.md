@@ -36,4 +36,3 @@ After completing the workflow file and Dockerfile:
 - (Optional) Allow your workflow to run on every push to PR temporarily.
 - Merge PR into the master branch.
 
-The GitHub Actions workflow should run automatically, build the Docker image, and push it to Docker Hub.
