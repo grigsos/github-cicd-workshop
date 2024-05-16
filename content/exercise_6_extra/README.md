@@ -16,7 +16,7 @@ You will need to create your own GitHub runner, which can be found in the:
 - Actions
 - Runners
 
-> **!Warning!** 
+> **Warning** 
 >
 > You can then follow the commands provided by GitHub to create a new runner on your Gitpod workspace by opening **another terminal** and running the following commands:
 

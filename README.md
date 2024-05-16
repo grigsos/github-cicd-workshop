@@ -15,4 +15,5 @@ To begin learning GitHub Actions, you'll create your own GitHub repository and c
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/grigsos/github-cicd-workshop)
 
 
-1. WHile inside the Gitpod environment, follow the instructions in the `setup.md` file to set up your GitHub repository and configure GitHub Actions.
+
+While inside the Gitpod environment, follow the instructions in the `setup.md` file to set up your GitHub repository and configure GitHub Actions.

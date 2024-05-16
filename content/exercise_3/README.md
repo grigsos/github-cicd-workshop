@@ -1,4 +1,4 @@
-# CI/CD with GitHub Actions and Docker
+# Continous deployment with GitHub Actions to Docker Hub
 
 This exercise aims to demonstrate how to set up a CI/CD pipeline using GitHub Actions. We will build a Docker image, use secrets for sensitive information, and trigger the workflow on merging into the master branch.
 
