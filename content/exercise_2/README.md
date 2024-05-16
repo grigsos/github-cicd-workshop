@@ -1,7 +1,5 @@
 # Python CI Workflow Exercise
 
-## Objective
-
 Create a GitHub Actions workflow that is triggered on pull requests to the master branch. This workflow should run unit tests and lint Python code.
 
 ## Files to Work With

@@ -2,6 +2,12 @@
 
 This exercise introduces you to GitHub Actions, a powerful tool to automate, customize, and execute your software development workflows right in your repository.
 
+## Files to Work With
+
+1. **exercise_1.yaml**: A Python script with style issues.
+2. **test_code.py**: Contains unit tests for `bad_code.py`.
+
+
 ## Task
 
 You are required to set up a basic workflow in your GitHub repository that triggers on every push to the repository and prints "Hello, World!".
