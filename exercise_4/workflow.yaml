@@ -1,0 +1,23 @@
+name: Protected envs and stages
+
+on:
+  push:
+    branches:
+      - master
+
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout github repository
+        uses: actions/checkout@v4
+
+      - name: Build or simulate building
+        # run: sleep 5
+
+      - name: Finish building
+        run: echo "Build completed successfully"
+
+  # Chain the next job to the previous one and make it deploy
+  # to different environments with manual approvals

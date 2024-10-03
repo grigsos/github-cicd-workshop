@@ -1,0 +1,12 @@
+# Made for VSCode Gitpod Workspace, which is automatically created by Gitpod
+.gitpod/ 
+.pyenv_mirror/
+.vscode-remote/
+
+# Python pytests
+.pytest_cache/
+
+# Docker
+.docker-root
+
+__pycache__/
